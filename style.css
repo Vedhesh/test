@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&family=Rubik+Mono+One&display=swap');
+
+body {
+    background-color: rgb(31, 31, 31);
+}
+
+.container {
+    place-items: center;
+}
+
+.animtest {
+    margin: auto;
+    width:700px;
+    height:300px;
+    border-radius: 2%;
+    box-shadow: 10px 10px 5px 2px #69696969;
+    background-color:rgb(97, 97, 97); 
+    transition: background-color 0.85s;
+    border: 2px solid white;
+    font-family: 'Reenie Beanie', cursive;
+    font-weight: bold;
+    font-size:36px;
+    color: white;
+    align-items: center;
+    align-content: center;
+    will-change: transform; transform: perspective(500px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+}
+move {
+    margin-left: 100px;
+    font-size: 70px;
+    color: whitesmoke ;
+    transform-style: preserve-3d;
+}
+.animtest:hover {
+    background-color: rgb(97, 97, 97);
+    cursor:crosshair;
+}
+smalle{
+    font-size: 27px;
+    font-family: Haettenschweiler;
+    font-weight: 20;
+    margin-left: 100px;
+}
+#h1z {
+    font-family:Helvetica;
+    font-weight: bold;
+    font-size:36px;
+    transform: translateX(30px);
+    font-family: 'Rubik Mono One', sans-serif;
+    color: white;
+    transition: opacity 0.3s,font-size 0.1s;
+
+}
+
+#h1z:hover { 
+    opacity:0.6;
+    font-size:41px;
+    cursor:pointer;
+}
+
+#h1x {
+    font-family:Helvetica;
+    font-weight: bold;
+    font-size:36px;
+    transform: translateX(30px);
+    font-family: 'Rubik Mono One', sans-serif;
+    color: white;
+    transition: opacity 0.3s,font-size 0.1s;
+}
+
+hidden {
+    color:white;
+    font-size: 5px;
+    transition: font-size 10s linear;
+}
+hidden:hover {
+    font-size:200px;
+}
+
+important {
+    color:rgb(255, 69, 69);
+}
+
+rainbow {
+    background-image: linear-gradient(to left, rgb(255, 116, 255), rgb(189, 97, 255), rgb(117, 117, 255), rgb(128, 255, 128), rgb(255, 255, 126), rgb(255, 214, 137), rgb(255, 132, 132));
+    border-radius: 10px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    /**
+    outline-style: dotted;
+    outline-width: 5px;
+    outline-color: white;
+    **/
+}
+
+#CONTENT {
+    background-color: #ff000069;
+}
+#CONTENT {
+    transform: translateZ(500px);
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    
+}
